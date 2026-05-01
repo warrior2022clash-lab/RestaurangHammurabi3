@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Hammurabi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="index.html">
+      <span>H</span>
+      <div>
+        <strong>Restaurant Hammurabi</strong>
+        <small data-en="Årsta grill restaurant" data-sv="Grillrestaurang i Årsta">Årsta grill restaurant</small>
+      </div>
+    </a>
+
+    <nav>
+      <a href="index.html" data-en="Home" data-sv="Hem">Home</a>
+      <a href="#menu" data-en="Menu" data-sv="Meny">Menu</a>
+      <a href="catering.html" data-en="Catering" data-sv="Catering">Catering</a>
+      <a href="#booking" data-en="Book" data-sv="Boka">Book</a>
+      <a href="#contact" data-en="Contact" data-sv="Kontakt">Contact</a>
+    </nav>
+
+    <div class="lang">
+      <button data-lang="en" class="active">EN</button>
+      <button data-lang="sv">SV</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow" data-en="Grill, lamb and generous plates in Årsta" data-sv="Grill, lamm och generösa tallrikar i Årsta">Grill, lamb and generous plates in Årsta</p>
+        <h1 data-en="Warm Middle Eastern food made for sharing." data-sv="Varm mat från Mellanöstern gjord för att delas.">Warm Middle Eastern food made for sharing.</h1>
+        <p data-en="Juicy lamb, shish kebab, chicken skewers, fresh salad bar and friendly service. Come for lunch, dinner, takeaway or a big table with friends." data-sv="Saftigt lamm, shish kebab, kycklingspett, fräsch salladsbar och vänlig service. Kom för lunch, middag, avhämtning eller ett stort bord med vänner.">Juicy lamb, shish kebab, chicken skewers, fresh salad bar and friendly service. Come for lunch, dinner, takeaway or a big table with friends.</p>
+        <div class="actions">
+          <a class="btn primary" href="#booking" data-en="Book a table" data-sv="Boka bord">Book a table</a>
+          <a class="btn secondary" href="catering.html" data-en="Order catering" data-sv="Beställ catering">Order catering</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/sharing-platter-polished.jpg" alt="Large grill platter" />
+      </div>
+    </section>
+
+    <section class="highlights">
+      <div>
+        <strong data-en="Large portions" data-sv="Stora portioner">Large portions</strong>
+        <p data-en="Grill plates and sharing platters." data-sv="Grilltallrikar och delningsfat.">Grill plates and sharing platters.</p>
+      </div>
+      <div>
+        <strong data-en="Fresh salad bar" data-sv="Fräsch salladsbar">Fresh salad bar</strong>
+        <p data-en="Pickles, olives, vegetables and sauces." data-sv="Pickles, oliver, grönsaker och såser.">Pickles, olives, vegetables and sauces.</p>
+      </div>
+      <div>
+        <strong data-en="Easy to visit" data-sv="Enkelt att besöka">Easy to visit</strong>
+        <p data-en="Dine-in, takeaway and outdoor seating." data-sv="Äta på plats, avhämtning och uteservering.">Dine-in, takeaway and outdoor seating.</p>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <p class="eyebrow" data-en="About Hammurabi" data-sv="Om Hammurabi">About Hammurabi</p>
+        <h2 data-en="A casual Stockholm spot with bold flavors and big hospitality." data-sv="En avslappnad plats i Stockholm med stora smaker och varmt bemötande.">A casual Stockholm spot with bold flavors and big hospitality.</h2>
+        <p data-en="Restaurant Hammurabi is known for flavorful lamb, kebab, chicken skewers and generous plates. The restaurant works well for solo dining, families and groups." data-sv="Restaurant Hammurabi är känd för smakrikt lamm, kebab, kycklingspett och generösa tallrikar. Restaurangen passar ensamgäster, familjer och grupper.">Restaurant Hammurabi is known for flavorful lamb, kebab, chicken skewers and generous plates. The restaurant works well for solo dining, families and groups.</p>
+      </div>
+      <img class="photo" src="assets/lamb-platter-owner-polished.jpg" alt="Lamb platter" />
+    </section>
+
+    <section class="section dark" id="menu">
+      <p class="eyebrow" data-en="Menu and prices" data-sv="Meny och priser">Menu and prices</p>
+      <h2 data-en="Grilled favorites from the Hammurabi menu." data-sv="Grillfavoriter från Hammurabis meny.">Grilled favorites from the Hammurabi menu.</h2>
+
+      <div class="menu-grid">
+        <article><span>01</span><h3>Shish kebab</h3><p>Rice, salad, bread and sauces.</p><strong>160 kr</strong></article>
+        <article><span>02</span><h3 data-en="Chicken skewers" data-sv="Kycklingspett">Chicken skewers</h3><p>Marinated chicken with grilled vegetables.</p><strong>160 kr</strong></article>
+        <article><span>03</span><h3 data-en="Lamb skewers" data-sv="Lammspett">Lamb skewers</h3><p>Tender lamb with classic sides.</p><strong>180 kr</strong></article>
+        <article><span>04</span><h3>Shish kebab & chicken</h3><p>A mixed plate with kebab and chicken.</p><strong>160 kr</strong></article>
+        <article><span>05</span><h3>Lamb & chicken</h3><p>Two grill favorites on one plate.</p><strong>180 kr</strong></article>
+        <article><span>06</span><h3>Shish kebab & lamb</h3><p>Kebab and lamb served with rice.</p><strong>180 kr</strong></article>
+        <article class="featured"><span>07</span><h3>Grill Mix</h3><p>Lamb, chicken, kebab, rice and sides.</p><strong>220 kr</strong></article>
+        <article><span>08</span><h3>Lamb Quzi</h3><p>Lamb with rice, soup and salad.</p><strong>180 kr</strong></article>
+      </div>
+
+      <img class="wide-photo" src="assets/menu-board-polished.jpg" alt="Menu board" />
+    </section>
+
+    <section class="section split">
+      <img class="photo" src="assets/salad-bar-polished.jpg" alt="Salad bar" />
+      <div>
+        <p class="eyebrow" data-en="Service and accessibility" data-sv="Service och tillgänglighet">Service and accessibility</p>
+        <h2 data-en="Comfortable for lunch, dinner, takeaway and groups." data-sv="Bekvämt för lunch, middag, avhämtning och grupper.">Comfortable for lunch, dinner, takeaway and groups.</h2>
+        <div class="pills">
+          <span>Outdoor seating</span><span>Takeaway</span><span>Dine-in</span><span>Lunch</span><span>Dinner</span><span>Coffee</span><span>Good for kids</span><span>Wheelchair-accessible entrance</span><span>Card payments</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking" id="booking">
+      <div>
+        <p class="eyebrow" data-en="Book a table" data-sv="Boka bord">Book a table</p>
+        <h2 data-en="Planning lunch, dinner or a group meal?" data-sv="Planerar du lunch, middag eller gruppmåltid?">Planning lunch, dinner or a group meal?</h2>
+        <p data-en="Call the restaurant for the fastest booking." data-sv="Ring restaurangen för snabbast bokning.">Call the restaurant for the fastest booking.</p>
+        <a class="btn primary" href="tel:+46720035555">072-003 55 55</a>
+      </div>
+
+      <form id="bookingForm">
+        <input name="name" placeholder="Name" required />
+        <input name="contact" placeholder="Phone or email" required />
+        <input name="guests" type="number" min="1" value="6" required />
+        <input name="date" type="datetime-local" required />
+        <textarea name="message" placeholder="Message" rows="4"></textarea>
+        <button class="btn dark-btn" type="submit">Create booking message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div>
+      <h2>Restaurant Hammurabi</h2>
+      <p data-en="Grill restaurant in Årsta with lamb, kebab, chicken, salad bar, group bookings and catering." data-sv="Grillrestaurang i Årsta med lamm, kebab, kyckling, salladsbar, gruppbokningar och catering.">Grill restaurant in Årsta with lamb, kebab, chicken, salad bar, group bookings and catering.</p>
+    </div>
+
+    <div>
+      <h3 data-en="Contact" data-sv="Kontakt">Contact</h3>
+      <p><a href="tel:+46720035555">072-003 55 55</a></p>
+      <p><a href="https://www.google.com/maps/search/?api=1&query=Sk%C3%B6ntorpsv%C3%A4gen%2084%2C%20120%2053%20%C3%85rsta">Sköntorpsvägen 84, 120 53 Årsta</a></p>
+    </div>
+
+    <div>
+      <h3 data-en="Opening hours" data-sv="Öppettider">Opening hours</h3>
+      <ul class="hours">
+        <li><span>Friday</span><b>11 am-8 pm</b></li>
+        <li><span>Saturday</span><b>11 am-8 pm</b></li>
+        <li><span>Sunday</span><b>11 am-8 pm</b></li>
+        <li><span>Monday</span><b>Closed</b></li>
+        <li><span>Tuesday</span><b>11 am-8 pm</b></li>
+        <li><span>Wednesday</span><b>11 am-8 pm</b></li>
+        <li><span>Thursday</span><b>11 am-8 pm</b></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
