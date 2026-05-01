@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catering | Restaurant Hammurabi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="index.html">
+      <span>H</span>
+      <div>
+        <strong>Restaurant Hammurabi</strong>
+        <small>Årsta grill restaurant</small>
+      </div>
+    </a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#menu">Menu</a>
+      <a href="catering.html">Catering</a>
+      <a href="#cateringForm">Book</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="lang">
+      <button data-lang="en" class="active">EN</button>
+      <button data-lang="sv">SV</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero catering-hero">
+      <div class="hero-text">
+        <p class="eyebrow" data-en="Catering from Restaurant Hammurabi" data-sv="Catering från Restaurant Hammurabi">Catering from Restaurant Hammurabi</p>
+        <h1 data-en="Bring the grill platter to your gathering." data-sv="Ta med grillfatet till din samling.">Bring the grill platter to your gathering.</h1>
+        <p data-en="Order generous Hammurabi catering for work lunches, family celebrations, birthdays, meetings and group dinners." data-sv="Beställ generös catering från Hammurabi till jobbluncher, familjefester, födelsedagar, möten och gruppmiddagar.">Order generous Hammurabi catering for work lunches, family celebrations, birthdays, meetings and group dinners.</p>
+        <div class="actions">
+          <a class="btn primary" href="tel:+46720035555">Call to order</a>
+          <a class="btn secondary" href="#how">How it works</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="assets/sharing-platter-polished.jpg" alt="Catering platter" />
+      </div>
+    </section>
+
+    <section class="section cards">
+      <article>
+        <span>01</span>
+        <h2>Grill platters</h2>
+        <p>Lamb, chicken, kebab, grilled vegetables, rice, bread and sauces.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h2>Fresh sides</h2>
+        <p>Pickles, olives, vegetables, corn and house sauces.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h2>For groups</h2>
+        <p>Perfect for office lunches, celebrations, family meals and dinners.</p>
+      </article>
+    </section>
+
+    <section class="section dark" id="how">
+      <p class="eyebrow">How to book catering</p>
+      <h2>Call, plan the food, confirm the time.</h2>
+
+      <div class="steps">
+        <article><b>1</b><h3>Call the restaurant</h3><p>Phone 072-003 55 55 and ask for catering.</p></article>
+        <article><b>2</b><h3>Tell us the group size</h3><p>Share the date, pickup time and number of people.</p></article>
+        <article><b>3</b><h3>Choose the food</h3><p>Pick lamb, chicken, kebab, rice, sauces and sides.</p></article>
+        <article><b>4</b><h3>Confirm your order</h3><p>Confirm everything so the food is ready on time.</p></article>
+      </div>
+    </section>
+
+    <section class="section booking" id="cateringForm">
+      <div>
+        <p class="eyebrow">Catering request</p>
+        <h2>Send the details before you call.</h2>
+        <p>Use the form to create a catering request. Call after sending for fastest confirmation.</p>
+        <a class="btn primary" href="tel:+46720035555">072-003 55 55</a>
+      </div>
+
+      <form id="cateringRequestForm">
+        <input name="name" placeholder="Name" required />
+        <input name="contact" placeholder="Phone or email" required />
+        <input name="guests" type="number" min="8" value="10" required />
+        <input name="date" type="datetime-local" required />
+        <textarea name="message" placeholder="What dishes, sides and pickup time do you want?" rows="5"></textarea>
+        <button class="btn dark-btn" type="submit">Create catering message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div>
+      <h2>Restaurant Hammurabi</h2>
+      <p>Grill restaurant in Årsta with generous lamb, kebab, chicken, salad bar, group bookings and catering.</p>
+    </div>
+
+    <div>
+      <h3>Contact</h3>
+      <p><a href="tel:+46720035555">072-003 55 55</a></p>
+      <p>Sköntorpsvägen 84, 120 53 Årsta</p>
+    </div>
+
+    <div>
+      <h3>Opening hours</h3>
+      <ul class="hours">
+        <li><span>Friday</span><b>11 am-8 pm</b></li>
+        <li><span>Saturday</span><b>11 am-8 pm</b></li>
+        <li><span>Sunday</span><b>11 am-8 pm</b></li>
+        <li><span>Monday</span><b>Closed</b></li>
+        <li><span>Tuesday</span><b>11 am-8 pm</b></li>
+        <li><span>Wednesday</span><b>11 am-8 pm</b></li>
+        <li><span>Thursday</span><b>11 am-8 pm</b></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
